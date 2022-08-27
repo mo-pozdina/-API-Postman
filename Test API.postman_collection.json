@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "e5153d30-9731-49cf-b8fb-cff1faab75e8",
+		"name": "Test API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22360544"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62dfb9c65de4fd655f306f40",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"mrs\",\r\n\"firstName\": \"QeweqwrqwrrrrrwxdsfdgnkjnkhjbjgjjanlmlExoticShard\",\r\n\"lastName\": \"QeweqwrqwrrrrrwxdsfdgnkjnkhjbjgjjanlmlExoticShard\",\r\n\"gender\": \"female\",\r\n\"email\": \"testirovochnyy1@internet.ru\",\r\n\"dateOfBirth\": \"06/23/1985\",\r\n\"phone\": \"+7 (982) 451-54-64\",\r\n\"picture\": \"http://myfoto.com\",\r\n\"location\": \r\n\t\t{\r\n\t\t\"street\": \"Krisanova\",\r\n\t\t\"city\": \"Perm\",\r\n\t\t\"state\": \"Perm\",\r\n\t\t\"country\": \"Russia\",\r\n\t\t\"timezone\": \"+5:00\"\r\n\t\t}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62dfb9c65de4fd655f306f40",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"mrs\",\r\n\"firstName\": \"Ya\",\r\n\"lastName\": \"Ya\",\r\n\"gender\": \"female\",\r\n\"email\": \"testirovochnyy1@internet.ru\",\r\n\"dateOfBirth\": \"06/23/1985\",\r\n\"phone\": \"+7 (982) 999-99-99\",\r\n\"picture\": \"http://myfoto.com\",\r\n\"location\": \r\n\t\t{\r\n\t\t\"street\": \"Krisanova\",\r\n\t\t\"city\": \"Perm\",\r\n\t\t\"state\": \"Perm\",\r\n\t\t\"country\": \"Russia\",\r\n\t\t\"timezone\": \"+5:00\"\r\n\t\t}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/62dfd0c5144b8827f18ad35f",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"62dfd0c5144b8827f18ad35f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62dfb9c65de4fd655f306f40",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/62dfc99d144b885fa38ac963",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"62dfc99d144b885fa38ac963"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62dfb9c65de4fd655f306f40",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/62dfc99d144b885fa38ac963",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"62dfc99d144b885fa38ac963"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62dfb9c65de4fd655f306f40",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"phone\": \"           \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/62dfd0c5144b8827f18ad35f",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"62dfd0c5144b8827f18ad35f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62dfb9c65de4fd655f306f40",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"phone\": \"           \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/62dfd0c5144b8827f18ad35f",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"62dfd0c5144b8827f18ad35f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
